@@ -1,0 +1,109 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* COMPONENTS style sheets */
+@import url("components/buttons.css");
+@import url("components/cards.css");
+
+
+/******************************* Utilities *******************************/
+/* body {
+  margin: 0;
+  font-family: Open Sans;
+} */
+
+body {
+  /* font-family: 'Hind Madurai', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Lora', serif;
+  margin: 0 auto;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  }
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************************** Custom design below! ***************************/
+.banner {
+  height: 500px;
+  background-image: url("https://mscloudtravelagency.com/images/anh/goc/1505712772h.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 65px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  }
+
+.banner .container {
+  text-align: right;
+}
+
+.container h1 {
+  margin: 0;
+  position: relative;
+  top: 212px;
+  color: #989898;
+}
+
+.container .description {
+  margin: 0;
+  position: relative;
+  top: 212px;
+  color: #a9a8a8;
+  font-size: 26px;
+}
+
+.wgo {
+  text-align: center;
+}
+
+.footer {
+  height: 90px;
+  background-image: linear-gradient(rgb(5 15 14 / 82%), rgb(44 40 43 / 99%)),
+  url("https://mscloudtravelagency.com/images/anh/goc/1505712772h.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-right: 0;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.social-media ul {
+  list-style: none;
+  margin: 0;
+}
+
+.social-media li {
+  display: inline;
+  margin: 5px;
+}
+
+.social-media a {
+  color: pink;
+}
+
+.social-media a:hover {
+  color: #494949;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 15px;
+}
